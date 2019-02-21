@@ -1,0 +1,58 @@
+.branding.jumbotron {
+	background:url($brand-image-url);
+	background-size: 100% 100%;
+	margin-bottom:0;
+}
+h1 {
+	font-size: 2.8rem;
+	font-weight:250;
+ 	text-transform: uppercase;
+}
+h2 {
+	color: #9c9381;
+}
+h3 {
+	color: #9c9381;
+}
+h5 {
+	color: #9c9381;
+	font-weight:700;
+}
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .15s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.timeline-part {
+	.timeline {
+		height: 10px;
+		background-color: $primary;
+	}
+	.timeline-end {
+		height: 20px;
+		width: 20px;
+		position:relative;
+		bottom:5px;
+		background-color: $primary;
+		border-radius: 50%;
+		display: inline-block;
+		margin-left:99%;
+	}
+	.timeline-year-text-holder {
+		position:relative;
+		top:5px;
+		display: inline-block;
+		margin-left:99%;
+	}
+	.timeline-text {
+		position:relative;
+		border:1px solid black;
+		margin:20px;
+		min-height:150px;
+		min-width:150px;
+		border-radius:6px;
+		padding:15px;
+	}
+}
